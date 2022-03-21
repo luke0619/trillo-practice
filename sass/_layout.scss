@@ -18,6 +18,10 @@
     align-items: center;
 }
 
+.content {
+    display: flex;
+}
+
 .sidebar {
     background-color: var(--color-grey-dark-1);
 
@@ -26,4 +30,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.hotel-view {
+    background-color: #fff;
+
+    flex: 1;
 }

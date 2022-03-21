@@ -3,6 +3,13 @@
     margin-left: 2rem;
 }
 
+.legal {
+    font-size: 1.2rem;
+    color: var(--color-grey-light-4);
+    text-align: center;
+    padding: 2.5rem;
+}
+
 // Search
 .search {
     flex: 0 0 40%;
@@ -162,5 +169,14 @@
         height: 1.75rem;
         margin-right: 2rem;
         fill: currentColor;
+    }
+}
+
+.gallery {
+    display: flex;
+
+    &__photo {
+        width: 100%;
+        display: block;
     }
 }
